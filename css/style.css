@@ -1,0 +1,113 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(214, 247, 255) !important;
+}
+
+header, footer {
+    background-color: #1c1244;
+    color: white;
+}
+
+.head_text {
+    color: #1c1244;
+}
+
+.header-text a {
+    color: #1ef3ff;
+    text-decoration: none;
+}
+
+.header-text a:hover {
+    color: #1dd5df;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.header-image {
+    margin-top: -5px !important;
+}
+
+.section_first {
+    margin: 70px 0;
+}
+
+@media screen and ( max-width: 767px ) {
+    .section_first {
+        margin: 90px 0;
+    }
+}
+
+@media screen and ( max-width: 539px ) {
+    .section_first {
+        margin: 120px 0;
+    }
+}
+
+@media screen and ( max-width: 327px ) {
+    .section_first {
+        margin: 140px 0;
+    }
+}
+
+@media screen and ( max-width: 268px ) {
+    .section_first {
+        margin: 170px 0;
+    }
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+footer {
+    padding: 50px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.newsletter {
+    background-color: cornflowerblue;
+    padding: 15px 15px 5px 15px;
+    border-radius: 25px;
+}
+
+.news {
+    background-color: #1c1244;
+    margin: 10px;
+    padding: 10px 10px 1px;
+}
+
+.news h3 {
+    font-size: 20px;
+    color: #1ef3ff;
+    margin-left: 10px;
+}
+
+.news p {
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.reg_button {
+    padding: 0;
+    margin: 0px -50px;
+}
+
+.login_button {
+    padding: 0;
+    margin: 0px -25px;
+}
+
+.width_auto {
+    width: auto !important;
+}
